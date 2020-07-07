@@ -1,5 +1,9 @@
 /* General Styles */
 
+.container {
+	margin-bottom: 50px;
+}
+
 .button {
 	background-color: black;
 	color: white;
@@ -7,8 +11,16 @@
 	border: none;
 	border-radius: 10px;
 	padding: 10px 20px;
+	font-size: 20px;
 }
 
+.arrow {
+	font-size: 30px;
+}
+
+.seeAll {
+	color: coral;
+}
 /* General Styles end */
 
 /* Carousel */
@@ -33,3 +45,16 @@ ol.carousel-indicators li.active {
 }
 
 /* Carousel ends */
+
+/* Card */
+.card {
+	background-color: none;
+	border: none;
+	box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+	border: none;
+	background-color: white;
+}
+/* Card end */
