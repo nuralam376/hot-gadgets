@@ -1,0 +1,35 @@
+/* General Styles */
+
+.button {
+	background-color: black;
+	color: white;
+	font-weight: 700;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+/* General Styles end */
+
+/* Carousel */
+
+.carousel-item {
+	padding: 20px 30px;
+}
+
+ol.carousel-indicators li {
+	background-color: gray;
+}
+
+ol.carousel-indicators li.active {
+	background-color: orange;
+	width: 10%;
+	border-radius: 50%;
+}
+
+.carousel-item p {
+	color: gray;
+	width: 80%;
+}
+
+/* Carousel ends */
