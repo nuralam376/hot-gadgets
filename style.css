@@ -58,3 +58,25 @@ ol.carousel-indicators li.active {
 	background-color: white;
 }
 /* Card end */
+
+/* Categories */
+
+#categories h3:after {
+	content: "";
+	display: block;
+	background-image: linear-gradient(to right, orange 0%, coral 100%);
+	width: 100px;
+	height: 5px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 5px auto 50px;
+}
+
+.catimage {
+	box-shadow: 5px 5px 10px lightgray;
+	padding: 20px 40px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+/* Categories end */
